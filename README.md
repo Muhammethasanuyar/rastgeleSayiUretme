@@ -23,7 +23,7 @@ Rastgele sayı üretimi; simülasyon, oyun geliştirme, örnekleme, test verisi 
 *   **Bellek karmaşıklığı:** $O(1)$ (tek 64-bit durum).
 
 ## 3. Algoritma Tanımı (SplitMix64)
-SplitMix64; her adımda durumu sabit bir artım ile günceller ve ardından çıktıyı üretmek için bit kaydırmaları, XOR ve 64-bit çarpma işlemleri ile karıştırma uygular. Karıştırma, çıktı bitlerinin state içindeki bitlerden daha iyi dağılmasını (diffusion) hedefler.
+SplitMix64; هر adımda durumu sabit bir artım ile günceller ve ardından çıktıyı üretmek için bit kaydırmaları, XOR ve 64-bit çarpma işlemleri ile karıştırma uygular. Karıştırma, çıktı bitlerinin state içindeki bitlerden daha iyi dağılmasını (diffusion) hedefler.
 
 ### 3.1 Matematiksel İfadeler
 Aşağıdaki tanımlar 64-bit tamsayılar üzerinde yapılır. Tüm toplama ve çarpma işlemleri mod $2^{64}$ alınmıştır.
